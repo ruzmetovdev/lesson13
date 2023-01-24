@@ -1,59 +1,12 @@
 header {
   background: linear-gradient(to right, #000000 0 53%, #57b8ff 0 50%);
 }
-nav { 
+nav {
   position: fixed;
   background: linear-gradient(to right, #000000 0 53%, #57b8ff 0 50%);
   width: 100%;
   top: 0;
 }
-
-
-body {
-  background: linear-gradient(to right,#ffffff 0 53%, #57b8ff 0 50%);
- }
- 
- body * {
-   color: white;
- }
-
- #dark-light {
-  background-color: transparent;
-  border: none;
- }
- 
-
-
-.dark {
-  background: linear-gradient(to right,#ffffff 0 53%, #57b8ff 0 50%);
- }
- 
- .dark * {
-   color: white;  
- }
- 
- #dark-light {
-  background-color: transparent;
-  border: none;
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .nav {
   display: flex;
@@ -163,7 +116,7 @@ body {
 
 /* mmmmmm */
 .iml .icon {
-  display:none;
+  display: none;
 }
 
 @media (max-width: 1000px) {
@@ -173,14 +126,13 @@ body {
   .iml .btn {
     display: none;
   }
-  nav { 
-    position:static;
+  nav {
+    position: static;
     background: none;
   }
   .ham {
     display: block;
   }
-
 }
 
 /* hpome */
@@ -196,7 +148,7 @@ body {
   .ims img {
     width: 100%;
     padding-top: 100px;
-   margin-bottom: -150px;
+    margin-bottom: -150px;
   }
   .cont .bt {
     margin-right: 0px;

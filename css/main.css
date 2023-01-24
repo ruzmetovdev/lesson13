@@ -2,6 +2,7 @@
 @import "./footer.css";
 @import "./header.css";
 @import "./root.css";
+@import "./loding.css";
 
 .sahi h2 {
   font-family: "Orbitron";

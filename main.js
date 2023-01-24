@@ -1,10 +1,18 @@
-let modeBtn = document.getElementById("dark-light");
 
-modeBtn.addEventListener("click", function () {
-  if (document.body.className != "light") {
-    this.firstElementChild.src = "images/dark.svg";
-  } else {
-    this.firstElementChild.src = "images/light.svg";
-  }
-  document.body.classList.toggle("light");
+setTimeout(() => {
+  document.getElementById("loading").style.display = "none";
+}, 1000);
+
+window.addEventListener("scroll", function () {
+  toggleBacktop();
 });
+
+let backtop = document.getElementById("backtop");
+
+function toggleBacktop() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    backtop.style.opacity = 1;
+  } else {
+    backtop.style.opacity = 0;
+  }
+}
