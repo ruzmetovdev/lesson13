@@ -8,6 +8,25 @@ nav {
   top: 0;
 }
 
+.light nav {
+  background: #57b8ff;
+}
+
+.light header {
+  background: #57b8ff;
+ }
+ 
+ .light * {
+   color: rgb(235, 235, 235) !important;
+ }
+
+#dark-light{
+  border: none;
+background-color: transparent;
+margin-right: -100px;
+}
+
+
 .nav {
   display: flex;
   justify-content: space-between;
